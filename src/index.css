@@ -22,6 +22,12 @@ code {
    box-shadow: 0 0 35px #eee;
 
 }
+/* .App{
+  max-width:1230px;
+  min-height: 100vh;
+  margin: 0 auto;
+  
+} */
 a{
   text-decoration: none;
 }

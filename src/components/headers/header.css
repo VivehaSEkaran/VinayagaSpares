@@ -11,12 +11,15 @@ header{
 }
 header .logo{
     flex:1;
+    flex-direction: row;
     color: crimson;
     padding-left: 13px;
+    
 }
- 
+
+
 header a{
-    /* text-transform: uppercase; */
+   
     color:white;
     font-family:Verdana;
 }

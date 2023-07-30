@@ -8,7 +8,8 @@ function Home()
     return(
              <div className='home' style={{backgroundImage:`url(${Bg})`}}>
                <div className='headerContainer'  >
-                    <h1>Sri Vinayaga Spares</h1>
+                  
+                    <h2>Everything you need for JCB and tractors......</h2>
                     <p>We’ve got the right things for you!</p> 
                     <Link to='/products'> <button>Order now</button>
                      </Link>

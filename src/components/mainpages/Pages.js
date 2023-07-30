@@ -2,6 +2,7 @@ import React, {useContext} from 'react'
 import {Routes, Route} from 'react-router-dom'
 import Products from './products/Products'
 import About from './products/About'
+import Contact from './products/Contact'
 import Home from './home/Home'
 import DetailProduct from './detailProduct/DetailProduct'
 import Login from './auth/Login'
@@ -28,6 +29,7 @@ const Pages= () =>{
             <Route path="/products" exact element={<Products/>}/>
             
             <Route path="/about" exact element={<About/>}/>
+            <Route path="/contact" exact element={<Contact/>}/>
             <Route path="/detail/:id" exact element={<DetailProduct/>}/>
 
             <Route path="/login" exact element={isLogged? NotFound :<Login/>}/>

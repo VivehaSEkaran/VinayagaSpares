@@ -2,9 +2,10 @@ import React, {useState, useContext} from 'react'
 import {GlobalState} from '../../GlobalState'
 import Menu from './icon/menu.svg'
 import Close from './icon/close.svg'
-import Cart from './icon/cart.svg'
+import Cart from './icon/cart-solid.svg'
 import {Link} from 'react-router-dom'
 import axios from 'axios'
+import logo from './logo.png';
 
 
 function Header(){
@@ -49,15 +50,19 @@ function Header(){
             </div>
 
             <div className="logo">
-                
+                <ul>
+               
                 <h1>
-                    <Link to="/">{isAdmin ? 'Admin': 'VinayagaSpares'}</Link>
+                    <Link to="/">{isAdmin ? 'Admin': 'Vinayaga Spares'}</Link>
                 </h1>
+                </ul>
+            
             </div>
 
             <ul>
                 <li><Link to="/about">About</Link></li>
-                <li><Link to="/products">Product</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="/products">Products</Link></li>
                 
                  {isAdmin && adminRouter()}
                  {

@@ -1,0 +1,21 @@
+.product_card{
+  max-width: 350px;
+  overflow: hidden;
+  height: 550px;
+  padding: 15px;
+  box-shadow: 0 0 15px #9DF3EE ;
+  margin:10px 0;
+  position: relative;
+}
+
+.contact-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact-list li {
+   font-weight: italic;
+   font-size: medium;
+  }
+  
